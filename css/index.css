@@ -1,0 +1,27 @@
+.cuotasdiv{
+    display: flex;
+    justify-content: center;
+}
+.card  h5{
+    display: flex;
+    justify-content: center;
+}
+.card p{
+    display: flex;
+    justify-content: center;
+}
+
+.cuotas{
+    text-align: center;
+    padding-left: 10px;
+    color: white;
+    width: 50%;
+    font-size: small;
+    border-radius: 5%;
+    background-color:rgb(52, 105, 197);
+}
+
+.card :hover{
+    cursor: pointer;
+ 
+}
