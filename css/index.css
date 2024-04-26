@@ -8,11 +8,7 @@
     
    
 }
-/* .texto {
-    overflow: hidden;
-    
-    text-overflow: ellipsis;
-} */
+
 .card  h4{
     display: flex;
     justify-content: center;
@@ -37,12 +33,13 @@
     background-color:rgb(52, 105, 197);
 }
 main{
+
    display: flex;
    justify-content: center;
 }
 .cardsContainer{
    
-    width: 55%;
+    width: 70%;
     display: flex;
     justify-content: center;
     justify-content: space-around;
