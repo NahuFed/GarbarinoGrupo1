@@ -1,0 +1,21 @@
+:root
+{
+    --rojo-garbarino: #e42628;
+    --rojo-garbarino2: #b33524;
+}
+
+.bg-rojo-garbarino{
+   background-color: var(--rojo-garbarino); 
+}
+.bg-rojo-garbarino2{
+    background-color: var(--rojo-garbarino2); 
+ }
+
+ .buscador{
+    height: 2rem;
+    width: 45rem;
+ }
+
+ .flex-categorias{    
+    margin-left: 15%;
+ }
