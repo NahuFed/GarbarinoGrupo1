@@ -1,6 +1,7 @@
 {
     "Celulares": [
         {
+            "id":1,
             "nombre": "Samsung Galaxy A34",
             "precio": "695.999",
             "categoria": "celulares",
@@ -8,6 +9,7 @@
             "imagen": "https://images-ext-1.discordapp.net/external/5wXfXy_cAPG1yG_5FZrR1deHo-aeShTBuv8dfAxIDGU/https/d2eebw31vcx88p.cloudfront.net/garbarino/uploads/af99dd50807017b576ff104dc0e21e5df71b601b.jpg.webp?format=webp&width=662&height=662"
         },
         {
+            "id":2,
             "nombre": "Samsung Galaxy S21",
             "precio": "1.132.999",
             "categoria": "celulares",
@@ -15,6 +17,7 @@
             "imagen": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/d17b6c4291e4b6ca487a709f9730735e2052aff7.jpg.webp"
         },
         {
+            "id":3,
             "nombre": "Samsung Galaxy S23",
             "precio": "1.164.999",
             "categoria": "celulares",
@@ -22,6 +25,7 @@
             "imagen": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/a9749946e39b3052252442a00a31bdd496a80fae.jpg.webp"
         },
         {
+            "id":4,
             "nombre": "Celular Quantum Q20",
             "precio": "206.164",
             "categoria": "celulares",
@@ -29,6 +33,7 @@
             "imagen": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/4c010f90038e6c459bdf9b099af757631450aef9.jpg.webp"
         },
         {
+            "id":5,
             "nombre": "Motorola Razr 40",
             "precio": "989.999",
             "categoria": "celulares",
@@ -38,6 +43,7 @@
     ],
     "Televisores": [
         {
+            "id":6,
             "nombre": "Motorola 91MT32E3A",
             "precio": "247.991",
             "categoria": "televisores",
@@ -45,6 +51,7 @@
             "imagen": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/9d7af390cf43da31ae4f039759028946586f9419.jpg.webp"
         },
         {
+            "id":7,
             "nombre": "Skyworth 50",
             "precio": "500.024",
             "categoria": "televisores",
@@ -52,6 +59,7 @@
             "imagen": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/02917218253f7b3283128e291796f8e3d935b132.jpg.webp"
         },
         {
+            "id":8,
             "nombre": "Samsung 4k AU7000",
             "precio": "1.259.999",
             "categoria": "televisores",
@@ -59,6 +67,7 @@
             "imagen": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/31f3d0b6fdb5e159db4027d93f1ad71b0a58ee52.jpg.webp"
         },
         {
+            "id":9,
             "nombre": "Philips 77OLED807/77",
             "precio": "5.609.998",
             "categoria": "televisores",
@@ -66,6 +75,7 @@
             "imagen": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/40868d7358506eee69bb3df4d3ada954ec477aed.jpg.webp"
         },
         {
+            "id":10,
             "nombre": "Bgh B5523us6g",
             "precio": "649.999",
             "categoria": "televisores",
@@ -75,6 +85,7 @@
     ],
     "Lavarropas": [
         {
+            "id":11,
             "nombre": " Enova 5Kg",
             "precio": "509.999",
             "categoria": "lavarropas",
@@ -82,6 +93,7 @@
             "imagen": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/bc262609078dc5db4dd78ebdd18bb5d36587237f.jpg.webp"
         },
         {
+            "id":12,
             "nombre": "Drean 8.12 ECO",
             "precio": "736.999",
             "categoria": "lavarropas",
@@ -89,6 +101,7 @@
             "imagen": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/01b214762422610bdd81cedea83bdd96a6b02d63.jpg.webp"
         },
         {
+            "id":13,
             "nombre": "Samsung 8Kg",
             "precio": "851.000",
             "categoria": "lavarropas",
@@ -96,6 +109,7 @@
             "imagen": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/e0e87dde46eb6ce516711d88676ff8ab980b1b37.jpg.webp"
         },
         {
+            "id":14,
             "nombre": "LG WM85VVC5S6P",
             "precio": "1.299.999",
             "categoria": "lavarropas",
@@ -103,6 +117,7 @@
             "imagen": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/e90a91cce9705c27257025ad78aec7ee1c9b4657.jpg.webp"
         },
         {
+            "id":15,
             "nombre": "Candy Ro1510156dwhcr",
             "precio": "1.699.999",
             "categoria": "lavarropas",
