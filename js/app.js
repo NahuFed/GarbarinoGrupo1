@@ -1,6 +1,7 @@
+import {CELULARES, TELEVISORES, LAVARROPAS} from './endpoints.js'
 
 const celulares = async ()  => { 
-    let response = await axios.get("http://localhost:3001/Celulares")
+    let response = await axios.get(CELULARES)
     response.data.map(cel => (
         document.getElementById("cardsContainer").innerHTML += `
 
@@ -30,7 +31,7 @@ const celulares = async ()  => {
 celulares();
 
 const televisores = async ()  => { 
-    let response = await axios.get("http://localhost:3001/Televisores")
+    let response = await axios.get(TELEVISORES)
     response.data.map(tel => (
         document.getElementById("cardsContainer").innerHTML += `
 
@@ -60,7 +61,7 @@ const televisores = async ()  => {
 televisores();
 
 const lavarropas = async ()  => { 
-    let response = await axios.get("http://localhost:3001/Lavarropas")
+    let response = await axios.get(LAVARROPAS)
     response.data.map(lav => (
         document.getElementById("cardsContainer").innerHTML += `
 
