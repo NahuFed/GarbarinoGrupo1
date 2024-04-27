@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,7 +14,6 @@
   <script src="https://kit.fontawesome.com/170be67319.js" crossorigin="anonymous" defer></script>
   <title>Garbarino</title>
 </head>
-
 <body>
   <header>
     <nav class="navbar navbar-expand-lg bg-rojo-garbarino flex-column pb-0">
@@ -97,11 +95,34 @@
       </div>
     </nav>
   </header>
-  <main>
+    <main>
+    <!-- caurosel   -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="../img/promo1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="../img/promo2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../img/promo3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="izquierda carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button type="button" class="derecha carousel-control-next  " data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <i class="fa-regular fa-square-chevron-right fa-xl "></i>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- fin caurosel -->
     <div id="cardsContainer" class="cardsContainer">
       
     </div>
-
   </main>
   <footer></footer>
 </body>
