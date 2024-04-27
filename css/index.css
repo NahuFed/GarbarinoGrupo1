@@ -58,15 +58,55 @@ main{
 
    display: flex;
    justify-content: center;
+   flex-direction: column;
 }
+/* botenes de carrusel */
+.derecha {
+    position: absolute;
+    top: 190px;
+    left: 1845px;
+    width: 50px;
+    height: 50px;
+    color: #1f1f1f;
+    font-size: 10px;
+    line-height: 1;
+    padding: 9px 4px;
+    background-color: #999d99;
+    border-top-left-radius: 45%;
+    border-color: #1f1f1f;
+    border-bottom-left-radius: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* botenes de carrusel */
+.izquierda{
+    top: 190px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    color: #1f1f1f;
+    font-size: 10px;
+    line-height: 1;
+    padding: 9px 4px;
+    background-color: #999d99;
+    border-color: #1f1f1f;
+    border-top-right-radius: 45%;
+    border-bottom-right-radius: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .cardsContainer{
-   
+   align-self: center;
     width: 70%;
     display: flex;
     justify-content: center;
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 40px;
+    align-items: center;
 }
 
 .card{
